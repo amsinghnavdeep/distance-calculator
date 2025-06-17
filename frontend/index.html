@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Distance Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Distance Calculator</h1>
+
+    <label for="source">Source:</label>
+    <input type="text" id="source" placeholder="Enter source location" />
+
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" placeholder="Enter destination location" />
+
+    <button onclick="calculate()">Calculate Distance</button>
+
+    <div class="result" id="result"></div>
+    <div class="error" id="error"></div>
+
+    <div class="history">
+      <h2>Previous Searches</h2>
+      <ul id="history-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
