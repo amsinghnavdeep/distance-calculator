@@ -18,7 +18,7 @@ This is a simple web application that calculates the distance between two addres
 - **Optional**: OpenAI for address correction
 
 ## How to Run
-2. **Clone the repository**:
+2. **Locally Run**:
    docker-compose up --build
 2. **Clone the repository**:
    ```bash
