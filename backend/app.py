@@ -5,7 +5,7 @@ from functools import lru_cache
 import math, os, logging
 import asyncpg, httpx, openai
 
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("openApi-key")
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@db:5432/geo")
 
 app = FastAPI()
