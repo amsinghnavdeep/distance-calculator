@@ -74,21 +74,8 @@ This application is designed using a clean and modular architecture:
 ##  Project Structure
 
 
-distance-calculator/
- backend/
-    app.py              # FastAPI application
-    utils.py            # Geocoding, distance, AI logic
-    test.py             # Test suite (unit + integration)
-    requirements.txt    # Python dependencies
-    Dockerfile          # Backend Docker build
- frontend/
-    index.html          # Main UI page
-    style.css           # Styling
-    script.js           # Client-side logic
-    nginx.conf          # Nginx proxy config
-    Dockerfile          # Frontend Docker build
- docker-compose.yml      # Orchestrates services
- README.md               # This file
+![image](https://github.com/user-attachments/assets/808ba455-35f4-4212-ab12-819c71e00335)
+
 
 
 ---
